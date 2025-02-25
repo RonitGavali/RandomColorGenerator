@@ -52,7 +52,7 @@ Below is a short video demonstrating the functionality of this project:
 
 ```html
 <video width="600" controls>
-  <source src="video/demo.mp4" type="video/mp4">
+  <source src="[video/demo.mp4](https://github.com/RonitGavali/RandomColorGenerator/blob/main/RandomColorGenerator.mp4)" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ```
