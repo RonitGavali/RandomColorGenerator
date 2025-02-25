@@ -1,5 +1,7 @@
 # Random Color Generator
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ## Description
 This is a simple web application that generates a random background color when the button is clicked. The generated color code is displayed on the screen and is automatically copied to the clipboard.
 
@@ -9,9 +11,9 @@ This is a simple web application that generates a random background color when t
 - Automatically copies the generated color code to the clipboard.
 
 ## Technologies Used
-- HTML
-- CSS
-- JavaScript
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## How It Works
 1. The webpage loads with a randomly generated background color.
@@ -44,6 +46,16 @@ This is a simple web application that generates a random background color when t
    cd random-color-generator
    ```
 3. Open `index.html` in a web browser.
+
+## Demonstration
+Below is a short video demonstrating the functionality of this project:
+
+```html
+<video width="600" controls>
+  <source src="video/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+```
 
 ## Contribution
 Feel free to fork this repository and contribute by submitting pull requests.
