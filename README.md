@@ -1,9 +1,53 @@
-Random Color Generator
-The Random Color Generator is a simple and interactive tool that generates random colors in multiple formats (HEX, RGB, HSL). It is perfect for designers, developers, or anyone looking for inspiration or testing with random colors.
+# Random Color Generator
 
-Features
-Random Color Generation: Produces a unique color every time you use it.
-Multiple Formats: Displays colors in HEX, RGB, and HSL formats.
-Copy Color Codes: Easily copy the generated color codes for use in your projects.
-Visual Display: Shows the generated color as a preview.
-Custom Range Options (Optional): Filter colors based on brightness, saturation, or hue.
+## Description
+This is a simple web application that generates a random background color when the button is clicked. The generated color code is displayed on the screen and is automatically copied to the clipboard.
+
+## Features
+- Generates a random background color on page load and button click.
+- Displays the generated color code in hexadecimal format.
+- Automatically copies the generated color code to the clipboard.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## How It Works
+1. The webpage loads with a randomly generated background color.
+2. Clicking the "Click Me" button generates a new random color.
+3. The generated color code is displayed on the screen.
+4. The color code is automatically copied to the clipboard.
+
+## File Structure
+```
+- index.html  (Main HTML file)
+- style.css   (CSS for styling)
+- script.js   (JavaScript for functionality)
+```
+
+## Code Explanation
+### `script.js`
+1. The `getColor` function generates a random hexadecimal color code using `Math.random()` and `toString(16)`.
+2. The background color of the webpage is updated with the generated color.
+3. The color code is displayed inside the `<h1>` tag with id `color-code`.
+4. The generated color code is copied to the clipboard using `navigator.clipboard.writeText()`.
+5. The `getColor` function is called on page load and also triggered on button click.
+
+## Installation and Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/random-color-generator.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd random-color-generator
+   ```
+3. Open `index.html` in a web browser.
+
+## Contribution
+Feel free to fork this repository and contribute by submitting pull requests.
+
+## License
+This project is open-source and available under the MIT License.
+
